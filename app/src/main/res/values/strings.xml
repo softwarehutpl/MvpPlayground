@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MvpPlayground</string>
+    <string name="login_introduction">Login</string>
+    <string name="interaction_introduction">Interaction</string>
+    <string name="go_introduction">Go!</string>
+    <string name="main_screen_title">Main Screen</string>
+    <string name="introduction_screen_title">Introduction Screen</string>
+    <string name="splash_screen_title">Splash Screen</string>
+    <string name="introduction_element">Introduction</string>
+    <string name="introduction_button_title">Go to home screen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="home_drawer_item_title">Home</string>
+    <string name="form_drawer_item_title">Form</string>
+    <string name="custom_list_drawer_item_title">Custom list</string>
+    <string name="introduction_activity_login_drawer_item_title">Introduction activity login</string>
+    <string name="stack_drawer_item_title">Stack</string>
+    <string name="name_form_hint">name</string>
+    <string name="surname_form_hint">surname</string>
+    <string name="go_to_introduction_button_title">Go to introduction</string>
+    <string name="custom_list_item_title">item</string>
+    <string name="home_title">HOME</string>
+</resources>

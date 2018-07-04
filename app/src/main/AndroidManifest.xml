@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.softwarehut.mvpplayground">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".domain.app.App">
+        <activity
+            android:name=".domain.main.MainActivity"
+            android:label="@string/main_screen_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".domain.introduction.slideList.IntroductionSlideListActivity"
+            android:label="@string/introduction_screen_title" />
+        <activity
+            android:name=".domain.introductionLogin.IntroductionLoginActivity"
+            android:label="@string/introduction_screen_title" />
+        <activity
+            android:name=".domain.splash.SplashActivity"
+            android:label="@string/splash_screen_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".domain.stack.StackActivity" />
+    </application>
+
+</manifest>
