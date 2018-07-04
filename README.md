@@ -1,4 +1,4 @@
-# Introduction 
+#Introduction 
 This project consists of three separate Kotlin projects:
 
 1. [KotlinMVP](https://github.com/softwarehutpl/KotlinMVP "KotlinMVP") - a *Model View Presenter* design pattern for Android.
@@ -82,26 +82,11 @@ The project handles `CustomListModel`s storage via **SHRepository**. This is don
 #Getting Started
 Both **KotlinMVP** and **SHRepository** are deployed as libraries.
 
-As the repository that grants both libraries is private, here are the instructions and credentials necessary to add dependencies:
-
 Somewhere in your *build.gradle* file
 ```
 repositories {
-    maven {
-        url 'https://softwarehut.pkgs.visualstudio.com/_packaging/SHmaven/maven/v1'
-        credentials {
-            username "VSTS"
-            password System.getenv("VSTS_ENV_ACCESS_TOKEN") ?: "${vstsGradleAccessToken}"
-        }
-    }
+    jcenter()
 }
-```
-
-The variable *vstsGradleAccessToken* needs to be declared too. It contains the credential. 
-
-In your *gradle.properties*:
-```
-vstsGradleAccessToken=mhao722kecwtu6d4k5kgcasxf6f35eh6w4daakc7xpebv4ghx6ya
 ```
 
 ### SHRepository
