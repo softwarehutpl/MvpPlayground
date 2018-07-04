@@ -1,4 +1,4 @@
-#Introduction 
+# Introduction 
 This project consists of three separate Kotlin projects:
 
 1. [KotlinMVP](https://github.com/softwarehutpl/KotlinMVP "KotlinMVP") - a *Model View Presenter* design pattern for Android.
@@ -79,7 +79,7 @@ You can find implementations of all elements of **KotlinMVP** there:
 
 The project handles `CustomListModel`s storage via **SHRepository**. This is done on mocked network side and DB side (courtesy of **Room DB**).
 
-#Getting Started
+# Getting Started
 Both **KotlinMVP** and **SHRepository** are deployed as libraries.
 
 Somewhere in your *build.gradle* file
@@ -101,6 +101,6 @@ implementation 'com.softwarehut:SHRepository:1.0.0'
 implementation 'com.softwarehut:KotlinMVP:1.0.0'
 ```
 
-#Build and Test
+# Build and Test
 **All projects were built in Android Studio.**
 The **MvpPlayground** needs actual Android device or Android emulator with min. **SDK version 19**.
