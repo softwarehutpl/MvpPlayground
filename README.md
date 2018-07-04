@@ -17,9 +17,9 @@ And if you are now designing your brand new `DetailsActivity` you should use the
 
 #### Params
 
-**Params** is essentially an Android `Bundle` which is stored and restored via Android `savedInstanceState` mechanisms. You only keep here the inputs for `Activity`/`Fragment`. All other stuff is handled and serialized by `SHRepository`.
+**Params** is essentially an Android `Bundle` which is stored and restored via Android `savedInstanceState` mechanisms. You only keep here the inputs for `Activity`/`Fragment`. All other stuff is handled and serialized by **SHRepository**.
 
-So your `User` goes to `SHRepository`, and your `userId`, that you used to *GET* the user goes to **Params**.
+So your `User` goes to **SHRepository**, and your `userId`, that you used to *GET* the user goes to **Params**.
 
 #### Additional features
 
@@ -100,6 +100,10 @@ implementation 'com.softwarehut:SHRepository:1.0.0'
 ```
 implementation 'com.softwarehut:KotlinMVP:1.0.0'
 ```
+
+### MvpPlayground
+
+Just clone the repo!
 
 # Build and Test
 **All projects were built in Android Studio.**
